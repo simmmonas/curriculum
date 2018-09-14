@@ -29,14 +29,6 @@ body {
 
 }
 
-  .courses {
-    display: grid;
-    grid-template-areas:
-    "business design"
-    "communication interaction";
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-  }
 
 
 .menu-1, .menu-2, .menu-3, .menu-4 {
@@ -137,8 +129,44 @@ input[type=text] {
 /*  background-image: linear-gradient(to bottom, #FEA69D, #F08C96);*/;
   margin-top: 5em;
   color:black;
-  padding: 1.5em;
+  padding: 5em;
+  grid-gap: 3em;
 
+}
+.courses {
+  display: grid;
+  grid-template-areas:
+  "business design"
+  "communication interaction";
+  grid-template-columns: 200px 200px;
+  grid-template-rows: 200px 200px;
+}
+
+.business{
+  background-color: rgb(255, 180, 170);
+  padding-left: 2em;
+  padding-top: 4em;
+}
+.design{
+  background-color: rgb(76, 55, 75);
+  padding-left: 2em;
+      padding-top: 4em;
+}
+.communication{
+  background-color: rgb(253, 215, 87);
+    padding-left: 1em;
+        padding-top: 4em;
+}
+.interaction{
+  background-color: rgb(110, 206, 178);
+    padding-left: 2em;
+        padding-top: 4em;
+}
+
+.business h4, .design h4, .communication h4,  .interaction h4 {
+  display: inline;
+  background-color: white;
+  font-size: 20px;
 }
 
 .title-box{
