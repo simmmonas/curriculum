@@ -22,8 +22,8 @@ body {
 .navbar {
   display: grid;
   grid-template-areas:
-    "logo menu-1 menu-2 menu-3 menu-4 search";
-  grid-template-columns: 3fr 1fr 1fr 1fr 1fr 2fr;
+    "logo menu-1 menu-2 menu-3 menu-4 ";
+  grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
   background-color: #233249;
   color: white;
 
@@ -34,7 +34,7 @@ body {
 .menu-1, .menu-2, .menu-3, .menu-4 {
     background-color: #233249;
     color: white;
-    margin-top
+    margin-top: 1.75em;
     font-size: 16px;
     border: none;
     cursor: pointer;
@@ -67,48 +67,22 @@ body {
 }
 
 .dropdown:hover .menu-1 {
-    background-color: rgb(255, 180, 170);
+    background-color: #EA5045;
     color: black;
 }
 .dropdown:hover .menu-2 {
-    background-color: rgb(255, 180, 170);
+    background-color: #EA5045;
     color: black;
 }
 .dropdown:hover .menu-3 {
-    background-color: rgb(255, 180, 170);
+    background-color: #EA5045;
     color: black;
 }
 .dropdown:hover .menu-4 {
-    background-color: rgb(255, 180, 170);
+    background-color: #EA5045;
     color: black;
 }
 
-
-.search {
-  float: right;
-}
-
-input[type=text] {
-  padding: 6px;
-  margin-top: 8px;
-  font-size: 17px;
-  border: none;
-}
-
-.search button {
-  float: right;
-  padding: 6px 10px;
-  margin-top: 8px;
-  margin-right: 16px;
-  background: #ddd;
-  font-size: 17px;
-  border: none;
-  cursor: pointer;
-}
-
-.search button:hover {
-  background: #ccc;
-}
 
 
 
@@ -118,8 +92,15 @@ input[type=text] {
   background-image: url("images/large/workspace.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-}
 
+}
+.title h1 {
+  margin-top: 4em;
+  font-size: 30px;
+}
+.title p {
+  font-size: 20px;
+}
 .description-box {
   display: grid;
   grid-template-areas:
@@ -241,7 +222,6 @@ footer {
 .menu-2 {grid-area: menu-2;}
 .menu-3 {grid-area: menu-3;}
 .menu-4 {grid-area: menu-4;}
-.search {grid-area: search;}
 .title-box {grid-area: title-box;}
 .courses {grid-area: courses;}
 .des {grid-area: des;}
