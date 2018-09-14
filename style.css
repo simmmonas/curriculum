@@ -207,3 +207,7 @@ footer {
 .title-box {grid-area: title-box;}
 .courses {grid-area: courses;}
 .des {grid-area: des;}
+.bussines {grid-area: bussines;}
+.design{grid-area: design;}
+.communication{grid-area: communication;}
+.interaction{grid-area: interaction;}
