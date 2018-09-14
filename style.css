@@ -114,9 +114,10 @@ input[type=text] {
 
 .title {
   text-align: center;
-  padding: 3em;
-  margin-top: 5em;
-  margin-bottom: 4em;
+  height: 22em;
+  background-image: url("images/large/workspace.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .description-box {
@@ -127,7 +128,6 @@ input[type=text] {
   grid-template-columns: 1fr 1fr;
   background-color: #e0e0e0;
 /*  background-image: linear-gradient(to bottom, #FEA69D, #F08C96);*/;
-  margin-top: 5em;
   color:black;
   padding: 5em;
   grid-gap: 3em;
