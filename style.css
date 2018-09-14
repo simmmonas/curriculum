@@ -121,6 +121,7 @@ body {
   "communication interaction";
   grid-template-columns: 200px 200px;
   grid-template-rows: 200px 200px;
+  margin-left: 25%;
 }
 
 .business{
