@@ -1,0 +1,209 @@
+* {box-sizing: border-box;}
+
+body {
+  /*background-image: url("images/large/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;*/
+  background-color: #ededed;
+  margin: 0;
+  Font-family: "Helvetica Neue";
+}
+
+.wrapper {
+  display: grid;
+  grid-template-areas:
+    "navbar"
+    "title"
+    "description-box"
+    "question"
+    "boxes";
+}
+
+.navbar {
+  display: grid;
+  grid-template-areas:
+    "logo menu-1 menu-2 menu-3 menu-4 search";
+  grid-template-columns: 3fr 1fr 1fr 1fr 1fr 2fr;
+  background-color: #233249;
+  color: white;
+
+}
+
+.menu-1, .menu-2, .menu-3, .menu-4 {
+    background-color: #233249;
+    color: white;
+    margin-top
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .menu-1 {
+    background-color: rgb(255, 180, 170);
+    color: black;
+}
+.dropdown:hover .menu-2 {
+    background-color: rgb(255, 180, 170);
+    color: black;
+}
+.dropdown:hover .menu-3 {
+    background-color: rgb(255, 180, 170);
+    color: black;
+}
+.dropdown:hover .menu-4 {
+    background-color: rgb(255, 180, 170);
+    color: black;
+}
+
+
+.search {
+  float: right;
+}
+
+input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.search button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.search button:hover {
+  background: #ccc;
+}
+
+
+
+.title {
+  text-align: center;
+  padding: 3em;
+  margin-top: 5em;
+  margin-bottom: 4em;
+}
+
+.description-box {
+  display: grid;
+  grid-template-areas:
+  "title-box title-box"
+  "courses des";
+  grid-template-columns: 1fr 1fr;
+  background-color: #e0e0e0;
+/*  background-image: linear-gradient(to bottom, #FEA69D, #F08C96);*/;
+  margin-top: 5em;
+  color:black;
+  padding: 1.5em;
+
+}
+
+.title-box{
+  text-align: center;
+
+}
+
+ul {
+  text-align: center;
+}
+
+.question{
+  text-align: center;
+  margin-top: 7em;
+  margin-bottom: 3em;
+}
+
+.boxes {
+  display: grid;
+  grid-template-areas:
+  "knowledge skills competencies";
+  grid-column-gap: 3em;
+  text-align: center;
+  margin-left: 10em;
+  margin-right: 10em;
+  margin-bottom: 5em;
+}
+
+.des p {
+  width: 20em;
+}
+
+
+.boxes ul {
+  text-align: left;
+
+}
+
+.knowledge, .skills, .competencies {
+    background-color: #e0e0e0;
+  color: black;
+  padding:.2em;
+  padding-right: 1em;
+  padding-top: 1em;
+}
+
+.knowledge li, .skills li, .competencies li {
+  font-size:13px;
+}
+
+.knowledge img, .skills img, .competencies img {
+  width:70px;
+}
+
+
+
+footer {
+  margin-top:5em;
+  background-color: #233249;
+  height: 5em;
+}
+.skills {grid-area:skills;}
+.competencies {grid-area: competencies;}
+.knowledge {grid-area: knowledge;}
+.navbar {grid-area: navbar;}
+.title {grid-area: title;}
+.description-box {grid-area: description-box;}
+.question {grid-area: question;}
+.boxes {grid-area: boxes;}
+.logo {grid-area: logo;}
+.menu-1 {grid-area: menu-1;}
+.menu-2 {grid-area: menu-2;}
+.menu-3 {grid-area: menu-3;}
+.menu-4 {grid-area: menu-4;}
+.search {grid-area: search;}
+.title-box {grid-area: title-box;}
+.courses {grid-area: courses;}
+.des {grid-area: des;}
