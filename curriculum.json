@@ -1,0 +1,82 @@
+{
+    "semesters":
+
+
+[
+            {
+                "title": "1. SEMESTER",
+                "content": " <p>The first compulsory programme element is intended to provide the student with the qualifications needed to understand the company’ s commercial framework and the multimedia designer’ s role in the value chain in a multimedia production.The student must be able to understand digital media and to define, produce and present solutions for and produce digital user interfaces. < /p>",
+                "coreAreas": [
+                    {
+                        "coreName": "BUSINESS",
+                        "skills": "<p> The student has acquired the skills needed to: use key theories, methods and tools for managing a simple multimedia production </p>",
+                        "knowledge": "<p>The student has gained development based knowledge and an understanding of: development methods for multimedia production copyright and licensing methods in multimedia production the company’s strategy as a starting point for multimedia production and the multimedia designer’s position in the value chain </p>",
+                        "competencies": "<p> The student has acquired the competencies needed to: manage relevant methods and tools for planning and managing a simple multimedia production </p>"
+
+
+        },
+
+                    { "coreName": "COMMUNICATION AND PRESENTATION",
+                        "skills": "<p>The student has acquired the skills needed to: collect and use empirical data about users and usage situations in practice produce digital content at a basic level based on user understanding plan and conduct user testing of a multimedia production </p>",
+                        "knowledge": "<p> TThe student has gained development based knowledge and an und erstanding of: digital media central theory and methods for user understanding and digital content production central test methods for multimedia production</p>",
+                        "competencies": "<p> TThe student has acquired the competencies needed to: manage the development of communication for simple digital interfaces</p>",},
+
+
+                    { "coreName": "DESIGN AND VISULISATION",
+                        "skills": "<p>The student has acquired the skills needed to: use central design processes for multimedia production, including documentation of the design process use key theories, tools and methods for design and development of simple digital user interfaces </p>",
+                        "knowledge": "<p> The student has gained development based knowledge and an understanding of: basic principles for the composition and layout of digital design in multimedia production design processes and documentation of digital design in multimedia production media terms for multimedia production current digital exchange formats for multimedia production </p>",
+                        "competencies": "<p> The student has acquired the competencies needed to: manage different types of material for the production of simple digital user interfaces. </p>"},
+
+                      { "coreName": "INTERACTION AND DEVELOPMENT",
+                        "skills": "<p>The student has acquired the skills needed to: use key methods for modelling and structuring by developing simple digital user interfaces in a multimedia production use key technologies and development environments to develop simple digital user interfaces in a multimedia production use key technologies and methods of version control for a multimedia production </p>",
+                        "knowledge": "<p> The student has gained development based knowledge and an understanding of: the structure and use of the Internet, with particular emphasis on understanding client server relationships and their importance for the development of digital interfaces appropriate technologies for the development of digital interfaces key methods for modelling, structuring and development of digital interfaces </p>",
+                        "competencies": "<p> The student has acquired the competencies needed to: develop simple digital user interfaces manage key technologies and methods fordevelopment and version control of simple digital user interfaces. </p>"},
+         ],
+
+                "assasments": [{
+                        "name": "assasments",
+                        "description": "<p>The compulsory programme element is concluded with an exam (Multimedia Production 1).The exam is assessed by an internal examiner according to the 7point grading scale. The learning objectives defined for the programme element are identical to the learning objectives for the exam. For further information on exam form and structure etc., reference is made to the institution specific part of the curriculum </p>"
+     }
+         ],
+        }
+    ],
+
+
+
+    [
+            {
+                "title": "2. SEMESTER",
+                "content": " <p>The first compulsory programme element is intended to provide the student with the qualifications needed to understand the company’s commercial framework and the multimedia designer’s role in the value chain in a multimedia production. The student must be able to understand digital media and to define, produce and present solutions for and produce digital user interfaces. </p>",
+                "coreAreas": [
+                    {
+                        "coreName": "BUSINESS",
+                        "skills": "<p> The studenthas acquired the skills needed to: use important tools and digital data for the optimisation of multimedia production plan and evaluate the project management and quality assurance in team-based multimedia productions </p>",
+                        "knowledge": "<p>The student has gained development based knowledge and an understanding of: development methods for multimedia production copyright and licensing methods in multimedia production the company’s strategy as a starting point for multimedia production and the multimedia designer’s position in the value chain </p>",
+                        "competencies": "<p> The student has acquired the competencies needed to: manage relevant methods and tools for planning and managing a simple multimedia production </p>",
+
+
+        },
+
+
+                      { "coreName": "COMMUNICATION AND PRESENTATION",
+                        "skills": "<p>The student has acquired the skills needed to: apply and combine central methods to planning and production of user-centred content in team-based multimedia productions use important theory, methods and tools to support digital user experiences, including test methods</p>",
+                        "knowledge": "<p> The student has gained development based knowledge and an understanding of:central methods and theory for digital content production in a multimedia production, including information architecture central theory and methods within digital user experiences in relation to multimedia production </p>",
+                        "competencies": "<p> The student has acquired the competencies needed to: participate in teams, produce digital user-oriented content and create user experiences in complex digital user interfaces </p>",},
+
+
+                    { "coreName": "DESIGN AND VISULISATION",
+                        "skills": "<p>The student has acquired the skills needed to: apply and combine multiple media forms of expression for design and production of user experience in digital user interfaces apply core methods, design processes, propose solutions for the production and dissemination of digital interfaces evaluate and work with the graphical material to ensure a consistent look for a multimedia production evaluate and apply user-centred methods in a digital design process</p>",
+                        "knowledge": "<p> The student has gained development based knowledge and an understanding of: relevant theories, tools and methods for design and development of user centred design and user experience methods for presentation of data </p>",
+                        "competencies": "<p> The student has acquired the competencies needed to: manage process documentation and communication to stakeholders participate in teams and manage the design and development of complex digital user interfaces </p>",},
+         ],
+
+         ],
+
+                "assasments": [{
+                        "name": "assasments",
+                        "description": "<p>The compulsory programme element is concluded with an exam (Multimedia Production 1).The exam is assessed by an internal examiner according to the 7point grading scale. The learning objectives defined for the programme element are identical to the learning objectives for the exam. For further information on exam form and structure etc., reference is made to the institution specific part of the curriculum </p>"
+     }
+         ],
+        }
+    ],
+}
