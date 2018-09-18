@@ -13,8 +13,7 @@ body {
   display: grid;
   grid-template-areas:
     "navbar"
-    "homeWrapper"
-    "footer";
+    "homeWrapper";
 
 }
 
@@ -229,8 +228,7 @@ footer {
   "progression progression"
   "projectWork projectWork"
   "learning learning"
-  "motivation motivation"
-  "footer footer";
+  "motivation motivation";
   grid-template-columns: 1fr 1fr;
 }
 
@@ -238,8 +236,7 @@ footer {
   display: grid;
   grid-template-areas:
   "abroadTitle abroadTitle"
-  "abroad abroad"
-  "footer footer";
+  "abroad abroad";
   grid-template-columns: 1fr 1fr;
 
 }
@@ -249,8 +246,7 @@ footer {
   grid-template-areas:
   "internshipTitle internshipTitle"
   "twoBoxes twoBoxes"
-  "internship internship"
-  "footer footer";
+  "internship internship";
   grid-template-columns: 1fr 1fr;
 }
 
@@ -288,4 +284,3 @@ footer {
 .design{grid-area: design;}
 .communication{grid-area: communication;}
 .interaction{grid-area: interaction;}
-.footer{grid-area: footer;}
