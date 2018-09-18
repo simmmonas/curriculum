@@ -13,10 +13,18 @@ body {
   display: grid;
   grid-template-areas:
     "navbar"
-    "title"
-    "description-box"
-    "question"
-    "boxes";
+    "homeWrapper"
+    "footer";
+
+}
+
+.homeWrapper {
+  display: grid;
+  grid-template-areas:
+  "title"
+  "description-box"
+  "question"
+  "boxes";
 }
 
 .navbar {
@@ -208,12 +216,11 @@ footer {
   background-color: #233249;
   height: 5em;
 }
-<<<<<<< HEAD
 
 /* ****************** SUB DIVS  *********************  */
 
-/
-.teaching-wrapper {
+
+.teachingWrapper {
 
   display:grid;
   grid-template-areas:
@@ -222,15 +229,16 @@ footer {
   "progression progression"
   "projectWork projectWork"
   "learning learning"
-  "motivation motivation";
+  "motivation motivation"
+  "footer footer";
   grid-template-columns: 1fr 1fr;
-
 }
 
 
 
 /* ****************** SUB DIVS  *********************  */
-
+.teachingWrapper {grid-area: teachingWrapper;
+  display: none;}
 .motivation {grid-area: motivation;}
 .learning {grid-area: learning;}
 .projectWork {grid-area: projectWork;}
@@ -238,8 +246,6 @@ footer {
 .methods {grid-area: methods;}
 .teachingTilte {grid-area: teachingTilte;}
 .homeWrapper {grid-area: homeWrapper;}
-=======
->>>>>>> 008c811158176c334e1c43feba1e8c631762517e
 .skills {grid-area:skills;}
 .competencies {grid-area: competencies;}
 .knowledge {grid-area: knowledge;}
@@ -260,3 +266,4 @@ footer {
 .design{grid-area: design;}
 .communication{grid-area: communication;}
 .interaction{grid-area: interaction;}
+.footer{grid-area: footer;}

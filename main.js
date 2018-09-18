@@ -1,3 +1,14 @@
+let homeWrapper = document.querySelector(".homeWrapper");
+let teachingWrapper = document.querySelector(".teachingWrapper");
+let teachingMenu = document.querySelector(".teachingMenu");
+
+teachingMenu.addEventListener('click', showTeachingWrapper);
+
+function showTeachingWrapper()
+{
+  homeWrapper.style.display = "none";
+  teachingWrapper.style.display = "block";
+}
 
 
 
@@ -8,9 +19,7 @@
 
 
 
-
-
-//TRYING TO FETCH JSON 
+//TRYING TO FETCH JSON
 
 
 
@@ -38,4 +47,3 @@ function showSingleSemester(semester){
 
     parent.appendChild(clone);
 }
-
