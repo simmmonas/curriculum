@@ -13,10 +13,15 @@ body {
   display: grid;
   grid-template-areas:
     "navbar"
-    "title"
-    "description-box"
-    "question"
-    "boxes";
+    "homeWrapper";
+}
+.homeWrapper {
+  display: grid;
+  grid-template-areas:
+  "title"
+  "description-box"
+  "question"
+  "boxes";
 }
 
 .navbar {
@@ -208,6 +213,35 @@ footer {
   background-color: #233249;
   height: 5em;
 }
+
+/* ****************** SUB DIVS  *********************  */
+
+
+.teaching-wrapper {
+
+  display:grid;
+  grid-template-areas:
+  "techingTitle techingTitle"
+  "methods methods"
+  "progression progression"
+  "projectWork projectWork"
+  "learning learning"
+  "motivation motivation";
+  grid-template-columns: 1fr 1fr;
+
+}
+
+
+
+/* ****************** SUB DIVS  *********************  */
+
+.motivation {grid-area: motivation;}
+.learning {grid-area: learning;}
+.projectWork {grid-area: projectWork;}
+.progression {grid-area: progression;}
+.methods {grid-area: methods;}
+.teachingTilte {grid-area: teachingTilte;}
+.homeWrapper {grid-area: homeWrapper;}
 .skills {grid-area:skills;}
 .competencies {grid-area: competencies;}
 .knowledge {grid-area: knowledge;}
