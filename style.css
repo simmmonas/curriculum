@@ -223,14 +223,40 @@ footer {
 
   display:grid;
   grid-template-areas:
-  "techingTitle techingTitle"
-  "methods methods"
-  "progression progression"
-  "projectWork projectWork"
-  "learning learning"
-  "motivation motivation";
-  grid-template-columns: 1fr 1fr;
+  "techingTitle"
+  "methods"
+  "progression"
+  "projectWork"
+  "learning"
+  "motivation";
+  grid-template-columns: 1fr;
+  text-align: center;
+
 }
+
+.techingTitle {
+  margin-top: 5em;
+}
+
+.methods{display: grid;
+grid-template-columns: 1fr 1fr;
+margin-top: 5em;
+margin-bottom: 3em;
+margin-left: 15em;
+margin-right: 15em;
+grid-gap: 4em;
+}
+.teachingText{
+  text-align: left;
+}
+
+.lightgrey {
+  background-color: #ededed;
+}
+.darkgrey {
+  background-color: #e0e0e0;
+}
+
 
 .abroadWrapper {
   display: grid;
