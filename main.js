@@ -1,3 +1,19 @@
+
+
+
+
+
+
+
+
+
+
+
+
+//TRYING TO FETCH JSON 
+
+
+
 const templateSemesters = document.querySelector("template").content;
 const semTitle = document.querySelector(".semTitle");
 const parent = document.querySelector("main");
