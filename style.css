@@ -234,9 +234,31 @@ footer {
   grid-template-columns: 1fr 1fr;
 }
 
+.abroadWrapper {
+  display: grid;
+  grid-template-areas:
+  "abroadTitle abroadTitle"
+  "abroad abroad"
+  "footer footer";
+  grid-template-columns: 1fr 1fr;
 
+}
+
+.internshipWrapper {
+  display: grid;
+  grid-template-areas:
+  "internshipTitle internshipTitle"
+  "twoBoxes twoBoxes"
+  "internship internship"
+  "footer footer";
+  grid-template-columns: 1fr 1fr;
+}
 
 /* ****************** SUB DIVS  *********************  */
+.internshipWrapper {grid-area: internshipWrapper; display: none;}
+.internship {grid-area:internship;}
+.abroadWrapper {grid-area: abroadWrapper; display: none;}
+.abroad {grid-area: abroad;}
 .teachingWrapper {grid-area: teachingWrapper;
   display: none;}
 .motivation {grid-area: motivation;}
