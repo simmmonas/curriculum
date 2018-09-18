@@ -13,15 +13,10 @@ body {
   display: grid;
   grid-template-areas:
     "navbar"
-    "homeWrapper";
-}
-.homeWrapper {
-  display: grid;
-  grid-template-areas:
-  "title"
-  "description-box"
-  "question"
-  "boxes";
+    "title"
+    "description-box"
+    "question"
+    "boxes";
 }
 
 .navbar {
@@ -213,6 +208,7 @@ footer {
   background-color: #233249;
   height: 5em;
 }
+<<<<<<< HEAD
 
 /* ****************** SUB DIVS  *********************  */
 
@@ -242,6 +238,8 @@ footer {
 .methods {grid-area: methods;}
 .teachingTilte {grid-area: teachingTilte;}
 .homeWrapper {grid-area: homeWrapper;}
+=======
+>>>>>>> 008c811158176c334e1c43feba1e8c631762517e
 .skills {grid-area:skills;}
 .competencies {grid-area: competencies;}
 .knowledge {grid-area: knowledge;}
