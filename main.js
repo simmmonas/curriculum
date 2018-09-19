@@ -1,6 +1,11 @@
 let homeWrapper = document.querySelector(".homeWrapper");
 let teachingWrapper = document.querySelector(".teachingWrapper");
 let teachingMenu = document.querySelector(".teachingMenu");
+let abroadMenu = document.querySelector(".abroadMenu");
+let internshipMenu = document.querySelector(".internshipMenu");
+let abroadWrapper = document.querySelector(".abroadWrapper");
+let internshipWrapper = document.querySelector(".internshipWrapper");
+
 
 teachingMenu.addEventListener('click', showTeachingWrapper);
 
@@ -9,12 +14,21 @@ function showTeachingWrapper()
   homeWrapper.style.display = "none";
   teachingWrapper.style.display = "block";
 }
+abroadMenu.addEventListener('click', showAbroadWrapper);
 
+function showAbroadWrapper()
+{
+  homeWrapper.style.display = "none";
+  abroadWrapper.style.display = "block";
+}
 
+internshipMenu.addEventListener('click', showInternshipWrapper);
 
-
-
-
+function showInternshipWrapper()
+{
+  homeWrapper.style.display = "none";
+  internshipWrapper.style.display = "block";
+}
 
 
 
@@ -23,21 +37,21 @@ function showTeachingWrapper()
 
 
 
-const templateSemesters = document.querySelector("template").content;
+const templateSemesters = document.querySelector(".semesters").content;
 const semTitle = document.querySelector(".semTitle");
 const parent = document.querySelector("main");
 window.addEventListener("load", ()=>{
-    fetch("curriculum1.json").then(res=>res.json()).then(showSemesters)
+    fetch("curriculum1.json").then(res=>res.json()).then(function(data){
+        showSemesters(data)
+    })
 
 })
 
 
 
 function showSemesters(data){
-    console.log(data);
-   semTitle.textContent = data.title;
-    data.articles.forEach(showSingleSemester)
-
+//    console.log(data);
+    data.forEach(showSingleSemester)
 
 }
 function showSingleSemester(semester){
