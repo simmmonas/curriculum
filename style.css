@@ -259,16 +259,16 @@ grid-gap: 4em;
 
 
 .abroadWrapper {
-  display: grid;
+  display: grid !important;
   grid-template-areas:
   "abroadTitle abroadTitle"
-  "abroad abroad";
-  grid-template-columns: 1fr 1fr;
-
+  "abroadImage abroadText";
+    grid-template-columns: 1fr 1fr;
 }
 
+
 .internshipWrapper {
-  display: grid;
+  display: grid ;
   grid-template-areas:
   "internshipTitle internshipTitle"
   "twoBoxes twoBoxes"
@@ -280,6 +280,10 @@ grid-gap: 4em;
 
 
 /* ****************** SUB DIVS  *********************  */
+
+.abroadTitle {grid-area: abroadTitle;}
+.abroadText {grid-area: abroadText;}
+.abroadImage {grid-area: abroadImage;}
 .internshipWrapper {grid-area: internshipWrapper; display: none;}
 .internship {grid-area:internship;}
 .abroadWrapper {grid-area: abroadWrapper; display: none;}

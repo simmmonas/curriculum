@@ -23,7 +23,7 @@ function showAbroadWrapper()
   homeWrapper.style.display = "none";
     teachingWrapper.style.display = "none";
     internshipWrapper.style.display = "none";
-  abroadWrapper.style.display = "block";
+  abroadWrapper.style.display = "flex";
 }
 
 internshipMenu.addEventListener('click', showInternshipWrapper);
