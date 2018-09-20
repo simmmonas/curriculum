@@ -58,6 +58,13 @@ function showSingleSemester(semester){
     console.log(semester)
     const clone = templateSemesters.cloneNode(true);
     clone.querySelector("h2").textContent=semester.title;
+    clone.querySelector(".description").textContent=semester.description;
+    clone.querySelector(".coreName").textContent=semester.coreName;
+    clone.querySelector(".skills").textContent=semester.skills;
+    clone.querySelector(".knowledge").textContent=semester.knowledge;
+    clone.querySelector(".competencies").textContent=semester.competencies;
+    clone.querySelector(".com").textContent=semester.coreName1;
+
 
     parent.appendChild(clone);
 }

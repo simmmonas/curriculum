@@ -276,6 +276,9 @@ grid-gap: 4em;
   grid-template-columns: 1fr 1fr;
 }
 
+
+
+
 /* ****************** SUB DIVS  *********************  */
 .internshipWrapper {grid-area: internshipWrapper; display: none;}
 .internship {grid-area:internship;}
