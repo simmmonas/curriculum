@@ -12,6 +12,8 @@ teachingMenu.addEventListener('click', showTeachingWrapper);
 function showTeachingWrapper()
 {
   homeWrapper.style.display = "none";
+    abroadWrapper.style.display = "none";
+    internshipWrapper.style.display = "none";
   teachingWrapper.style.display = "block";
 }
 abroadMenu.addEventListener('click', showAbroadWrapper);
@@ -19,6 +21,8 @@ abroadMenu.addEventListener('click', showAbroadWrapper);
 function showAbroadWrapper()
 {
   homeWrapper.style.display = "none";
+    teachingWrapper.style.display = "none";
+    internshipWrapper.style.display = "none";
   abroadWrapper.style.display = "block";
 }
 
@@ -27,7 +31,10 @@ internshipMenu.addEventListener('click', showInternshipWrapper);
 function showInternshipWrapper()
 {
   homeWrapper.style.display = "none";
-  internshipWrapper.style.display = "block";
+    teachingWrapper.style.display = "none";
+    abroadWrapper.style.display = "none";
+
+    internshipWrapper.style.display = "block";
 }
 
 
