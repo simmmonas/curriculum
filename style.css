@@ -259,7 +259,7 @@ grid-gap: 4em;
 
 
 .abroadWrapper {
-  display: grid !important;
+  display: grid;
   grid-template-areas:
   "abroadTitle abroadTitle"
   "abroadImage abroadText";

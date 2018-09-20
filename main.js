@@ -64,7 +64,7 @@ function showSemesters(data){
 function showSingleSemester(semester){
     console.log(semester)
     const clone = templateSemesters.cloneNode(true);
-    clone.querySelector(".semTitle h2").textContent=semester.title;
+    clone.querySelector(".semTitle").textContent=semester.title;
     clone.querySelector(".description").textContent=semester.description;
     clone.querySelector(".coreName").textContent=semester.coreArea;
     clone.querySelector(".skills").textContent=semester.coreCategories[0];
